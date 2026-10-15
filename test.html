@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | CampusHub</title>
+</head>
+<body>
+    <p><strong>Regjistrimi mbyllet te premten.</strong></p>
+    <p>Ju lutem paraqiteni <em>para ores 10.</em></p>
+    <p>Kategoria: <b>Workshop</b></p>
+    <p>Termi <i>frontend</i> i referohet pjeses...</p>
+    <p>Hyrja ne event eshte <mark>falas per studentet.</mark></p>
+    <p><small>Numri i vendeve eshte i limituar.</small></p>
+    <p>Cmimi i meparshem: <del>10$</del></p>
+    <p>Cmimi aktual: <ins>Falas</ins></p>
+    <p>Siperfaqja: 25m<sup>2</sup></p>
+    <p>Formula kimike e ujit: H<sub>2</sub>O</p>
+    <p>Fakulteti i Inxhinierise Elektrike dhe Kompjuterike <br>Qyteti: Prishtine</p>
+    <hr>
+    <form action="">
+        <label for="name">Emri dhe Mbiemri:</label>
+        <input type="text" id="name" name="name" placeholder="Shkruaj ketu" required minlength="3" maxlength="13"><br>
+        <label for="email">Emaili:</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="participants">Numri i participants:</label>
+        <input type="number" name="participants" id="participants" max="100" min="1"><br>
+        <label for="date">Data:</label>
+        <input type="date" name="data" id="date"><br>
+        <label for="phone">Numri i tel:</label>
+        <input type="tel" id="phone" name="telefoni"><br>
+        <label for="password">Passwordi:</label>
+        <input type="password" name="password" id="password"><br>
+
+ <!-- radio -->
+        <p>Statusi i studentit</p>
+        <input type="radio" name="student-status" id="current-student">
+        <label for="current-student">Studenti aktual</label>
+        <input type="radio" name="student-status" id="graduate">
+        <label for="graduate">I diplomuar</label><br>
+
+ <!-- checkbox -->
+        <input type="checkbox" id="updates" name="updates">
+        <label for="updates">Deshiroj te marre njoftime per ngjarjet e ardhshme</label><br>
+ <!-- textarea -->
+        <label for="message">Mesazhi</label>
+        <textarea name="mesazhi" id="message" rows="3" placeholder="Shkruaj ketu mesazhin"></textarea><br>
+
+ <!-- ddlist -->
+        <label for="ddlist">Tema</label>
+        <select name="Subject" id="ddlist">
+            <option value="">Zgjedh temen</option>
+            <option value="events">Eventet</option>
+            <option value="clubs">Klube</option>
+            <option value="others">Tjera</option>
+        </select><br>
+
+ <!-- button -->
+        <button type="submit">Dergo</button>
+    </form>
+
+
+</body>
+</html>
