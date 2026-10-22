@@ -1,0 +1,30 @@
+p{
+    background-color: navy;
+    color: green;
+}
+.eventcard{
+    border: 1px solid black;
+    padding: 10px;
+}
+#logo{
+    color: white;
+    background: black;
+}
+nav a{
+    text-decoration: none;
+    color: pink;
+    background-color: purple;
+}
+nav > a{
+    color: pink;
+}
+h3 + p{
+    color: yellow;
+}
+h3 ~ p {
+    background-color: lightblue;
+}
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+}
