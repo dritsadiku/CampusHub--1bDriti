@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 p{
     background-color: navy;
     color: green;
@@ -28,3 +32,44 @@ h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
     color: pink;
 }
+input[type="email"]{
+    color: red;
+}
+a[target="_blank"]{
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+button{
+    color: pink;
+    background-color: rgb(255, 234, 185);
+
+}
+button:hover{
+    width: 60px;
+    height: 40px;
+}
+li:first-child{
+     font-weight: 1000;
+}
+li:last-child{
+    font-size:30px
+}
+.eventcard{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+    background-color: cyan;
+}
+.boxmodel{
+    padding: 10px;
+    margin: 20px;
+    background-color: green;
+    border: 2px solid red;
+    box-sizing: border-box;
+    width: 300px;
+    text-align: center;
+    
+}
+
