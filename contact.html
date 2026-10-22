@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti</title>
+</head>
+<body>
+    <header>
+        <h1>Events</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="eventet.html">Eventet</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have any questions?<br>Send us a message.</p>
+            <form action="">
+                <div>
+                    <label for="name">Emri dhe mbiemri:</label>
+                    <input type="text" name="name" id="name" required minlength="3">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject">
+                        <option value="">Select a subject</option>
+                        <option value="events">Events</option>
+                        <option value="clubs">Clubs</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required minlength="10" rows="3"></textarea>
+                </div>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2026 CampusHub</p>
+    </footer>
+</body>
+</html>

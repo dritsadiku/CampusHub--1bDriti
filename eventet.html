@@ -16,7 +16,7 @@
             <a href="eventet.html">Eventet</a>
             <a href="clubs.html">Clubs</a>
             <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
 
 
         </nav>
@@ -108,6 +108,46 @@
                 <h3>Windows Day</h3>
                 <p>Windows Day is the best day ever.</p>
             </article>
+        </section>
+
+        <section>
+            <h2>Join Event</h2>
+            <form action="">
+                <div>
+                    <label for="name" >Emri dhe mbiemri:</label>
+                    <input type="text" id="name" name="name" required minlength="3">
+            </div>
+            <div>
+                <label for="email" >Emaili:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="ddlist">Select event</label>
+                <select name="ddlist" id="ddlist">
+                    <option value="">Select</option>
+                    <option value="windowsday">Windows Day</option>
+                    <option value="newyear">New Years Eve</option>
+
+                </select>
+            </div>
+            <div>
+                <input type="radio" name="current-status" id="active">
+                <label for="active">Aktiv</label>
+                <input type="radio" name="current-status" id="non-active">
+                <label for="non-active">I dimplomuar</label>
+
+            </div>
+            <div>
+                <label for="message">Mesazhi</label>
+                <textarea name="message" id="message"></textarea>
+
+            </div>
+            <div>
+                <input type="checkbox" id="updates" name="updates">
+                <label for="updates">Deshiroj te marr njoftime ne te ardhmen</label>
+            </div>
+            <button type="submit">Dergo mesazhin</button>
+            </form>
         </section>
     </main>
 
