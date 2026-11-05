@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | CampusHub</title>
+    <link rel="stylesheet" href="css/detyra22tet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Events</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="eventet.html">Eventet</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+
+
+        </nav>
+    </header>
+
+    <main class="container py-5">
+        <section>
+            <h2 class="display-6 mb-3 fw-bold">Upcoming Events</h2>
+            <article>
+                <h3>Web Development Workshop</h3>
+                <p>Learn more about Web Development</p>
+                <p>Status: <span>Open</span></p>
+                <button>Join event</button>
+            </article>
+            <article>
+                <h3>Programming Club Meeting</h3>
+                <p>Learn more about Web Development</p>
+                <p>Status: <span>Open</span></p>
+                <button>Join event</button>
+            </article>
+            <article>
+                <h3>Career Day</h3>
+                <p>Learn more about Web Development</p>
+                <p>Status: <span>Coming soon</span></p>
+                <button>Join event</button>
+            </article>
+
+        </section>
+        <aside class="bg-primary-subtle rounded-2 p-4">
+            <h2 class="h4 mb-3">New Event</h2>
+            <p class="text-dark mb-1">Join the new CyberSecurity Event</p>
+
+        </aside>
+        <section>
+            <h2>Events Schedule</h2>
+            <div>
+          <table  class="table table-striped table-hover">
+                <thead table-dark>
+                    <tr>
+                        <th>Eventi</th>
+                        <th>Date</th>
+                        <th>Location</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development Workshop</td>
+                        <td>October 15</td>
+                        <td>Rooom 204</td>
+                        <td><span class="badge text-bg-success">Open</span></td>
+                    </tr>
+                    <tr>
+                        <td>Programming Club Meeting</td>
+                        <td>October 17</td>
+                        <td>Rooom 200</td>
+                        <td><span class="badge text-bg-success">Open</span></td>
+                    </tr>
+                    <tr>
+                        <td>WCareer Day</td>
+                        <td>October 20</td>
+                        <td>Rooom 209</td>
+                        <td><span class="badge text-bg-warning">Coming soon</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            
+        </section>
+        <section>
+            <h2>Coming soon Events</h2>
+            <table class="table table-striped-column">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Date</th>
+                        <th>Status</th>
+
+                    </tr>
+                    
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Windows Day</td>
+                        <td>October 30</td>
+                        <td>Coming Soon</td>
+                    </tr>
+                    <tr>
+                        <td>Windows Day</td>
+                        <td>October 30</td>
+                        <td>Coming Soon</td>
+                    </tr>
+                    <tr>
+                        <td>Windows Day</td>
+                        <td>October 30</td>
+                        <td>Coming Soon</td>
+                    </tr>
+                </tbody>
+            </table>
+            <article>
+                <h3>Windows Day</h3>
+                <p>Windows Day is the best day ever.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Join Event</h2>
+            <form action="">
+                <div>
+                    <label for="name" >Emri dhe mbiemri:</label>
+                    <input type="text" id="name" name="name" required minlength="3">
+            </div>
+            <div>
+                <label for="email" >Emaili:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="ddlist">Select event</label>
+                <select name="ddlist" id="ddlist">
+                    <option value="">Select</option>
+                    <option value="windowsday">Windows Day</option>
+                    <option value="newyear">New Years Eve</option>
+
+                </select>
+            </div>
+            <div>
+                <input type="radio" name="current-status" id="active">
+                <label for="active">Aktiv</label>
+                <input type="radio" name="current-status" id="non-active">
+                <label for="non-active">I dimplomuar</label>
+
+            </div>
+            <div>
+                <label for="message">Mesazhi</label>
+                <textarea name="message" id="message"></textarea>
+
+            </div>
+            <div>
+                <input type="checkbox" id="updates" name="updates">
+                <label for="updates">Deshiroj te marr njoftime ne te ardhmen</label>
+            </div>
+            <button type="submit">Dergo mesazhin</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-center text-white">
+        <div class="container py4">
+             <p class="mb-0"> &copy; 2026 CampusHub</p>
+        </div>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
