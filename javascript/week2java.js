@@ -120,6 +120,57 @@ console.log(foundEvents);
 const fEvents = events3.find((el) => el.name = "Web Development Workshop 1");
 console.log(fEvents);
 
+const aktivitetet = [
+    {
+        name: "Aktiviteti 1",
+        lokacioni: "Dhoma 1",
+        participants: "1"
+    },
+    {
+        name: "Aktiviteti 2",
+        lokacioni: "Dhoma 2",
+        participants: "2"
+    },
+    {
+        name: "Aktiviteti 3",
+        lokacioni: "Dhoma 3",
+        participants: "3"
+    },
+    {
+        name: "Aktiviteti 4",
+        lokacioni: "Dhoma 4",
+        participants: "4"
+    }
+]
+console.log(aktivitetet.length);
+for(let a=0; a<2; a++){
+    console.log(aktivitetet[a].name);
+}
+
+for(let akt of aktivitetet){
+    console.log(akt.name);
+    console.log(akt.lokacioni);
+}
+
+aktivitetet.push({
+    name: "Aktiviteti 5",
+    lokacioni: "Dhoma 5",
+    participants: 5
+})
+
+const aktNames = aktivitetet.map(function(event){
+    return aktivitetet.name;
+})
+console.log(aktNames);
+
+
+const foundAktiviteti = aktivitetet.find(function(el){
+    return el.name === "Aktiviteti 1";
+});
+console.log(foundAktiviteti);
+
+
+
 
 
 
