@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakti</title>
+    <style>
+        .highlight{
+            background-color: lightblue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="heading">Events</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="eventet.html">Eventet</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="#">About</a>
+            <a href="contact.html">Contact</a>
+
+
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have any questions?<br>Send us a message.</p>
+            <form action="">
+                <div>
+                    <label for="name">Emri dhe mbiemri:</label>
+                    <input type="text" name="name" id="name" required minlength="3">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject">
+                        <option value="">Select a subject</option>
+                        <option value="events">Events</option>
+                        <option value="clubs">Clubs</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required minlength="10" rows="3"></textarea>
+                </div>
+                <button type="submit" id="myButton">Send message</button>
+            </form>
+        </section>
+        <p class="text">teksti 1</p>
+        <p class="text">teksti 2</p>
+        <p class="text">teksti 3</p>
+        <div id="events"></div>
+        <section class="event-card">
+            <p>This is a paragraph</p>
+        </section>
+        
+        <button type="button" id="add-css">Add Highlight</button>
+        <button type="button" id="remove-css">Remove Highlight</button>
+        <button type="button" id="toggle-css">Toggle Highlight</button>
+        <form action="submit"  class="jsforma">
+            <input type="text" id="name" placeholder="name">
+            <input type="text">
+            <input type="text">
+            <button type="submit">Submit</button>
+        </form>
+        <div class="posts">
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 CampusHub</p>
+    </footer>
+    <script src="week2extra.js" defer></script>
+</body>
+</html>
